@@ -1,0 +1,42 @@
+[package]
+name = "signbridge"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+glam = "0.33.5"
+serde = "1.0.229"
+wgpu = "27"
+winit = "0.30.13"
+env_logger = "0.11"
+pollster = { version = "1.0", features = ["macro"] }
+anyhow = "1.0.104"
+thiserror = "2.0.20"
+flume = "0.12.0"
+# futures = "0.3.34"
+# tokio = { version = "1.53.1", features = ["full", "tracing"] }
+# tracing = { version = "0.1.44", features = ["async-await", "log"] }
+# tracing-subscriber = "0.3.23"
+image = "0.25.10"
+rayon = "1.12.0"
+log = { version = "0.4.34", features = ["std"] }
+console_error_panic_hook = "0.1.7"
+wasm-bindgen = "0.2.127"
+web-sys = { version = "0.3.104", features = ["Window", "Document", "HtmlCanvasElement", "console"] }
+
+[dependencies.nokhwa]
+version = "0.10.11"
+default-features = false
+features = [
+  "js-sys",
+  "output-wgpu",
+  "rgb",
+  "serde",
+  "serialize",
+  "wasm-bindgen",
+  "wasm-bindgen-futures",
+  "web-sys"
+]
+
+
+

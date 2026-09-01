@@ -1,0 +1,11 @@
+
+
+[alias]
+rr = "run --release"
+
+[build]
+target = "wasm32-unknown-unknown"
+
+
+
+
