@@ -12,6 +12,27 @@ The project focuses on building the translation pipeline as a systems problem: e
 
 ---
 
+## Status
+
+SignBridge is currently being developed incrementally.
+
+The main development priorities are:
+
+* [x] Initial Rust project
+* [x] Landmark representation
+* [X] Robust hand detection
+* [X] Efficient landmark extraction
+* [X] Landmark normalization
+* [ ] Temporal representation
+* [ ] Gesture recognition
+* [ ] Frame skipping / scheduling
+* [ ] GPU acceleration
+* [X] WebAssembly pipeline
+* [ ] Native ↔ processing IPC
+* [ ] End-to-end real-time translation
+
+---
+
 ## Overview
 
 Sign language is inherently temporal. A useful translator cannot simply classify isolated images — it needs to continuously observe hand movements and turn them into a sequence of meaningful gestures.
@@ -369,27 +390,6 @@ trunk serve
 ```
 
 The application can then be accessed through the development server.
-
----
-
-## Current Focus
-
-SignBridge is currently being developed incrementally.
-
-The main development priorities are:
-
-* [x] Initial Rust project
-* [x] Landmark representation
-* [X] Robust hand detection
-* [X] Efficient landmark extraction
-* [X] Landmark normalization
-* [ ] Temporal representation
-* [ ] Gesture recognition
-* [ ] Frame skipping / scheduling
-* [ ] GPU acceleration
-* [X] WebAssembly pipeline
-* [ ] Native ↔ processing IPC
-* [ ] End-to-end real-time translation
 
 ---
 
