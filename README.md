@@ -1,5 +1,3 @@
-Absolutely — here’s a README that presents **SignBridge as a systems/performance-oriented project**, rather than making it read like an AI/ML project.
-
 # SignBridge
 
 **Real-time sign language translation, built with Rust.**
