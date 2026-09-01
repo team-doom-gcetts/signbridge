@@ -380,14 +380,14 @@ The main development priorities are:
 
 * [x] Initial Rust project
 * [x] Landmark representation
-* [ ] Robust hand detection
-* [ ] Efficient landmark extraction
-* [ ] Landmark normalization
+* [X] Robust hand detection
+* [X] Efficient landmark extraction
+* [X] Landmark normalization
 * [ ] Temporal representation
 * [ ] Gesture recognition
 * [ ] Frame skipping / scheduling
 * [ ] GPU acceleration
-* [ ] WebAssembly pipeline
+* [X] WebAssembly pipeline
 * [ ] Native ↔ processing IPC
 * [ ] End-to-end real-time translation
 
